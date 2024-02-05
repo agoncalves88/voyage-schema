@@ -1,4 +1,4 @@
-module ithub.com/agoncalves88/voyage-schema
+module github.com/agoncalves88/voyage-schema
 
 go 1.19
 
