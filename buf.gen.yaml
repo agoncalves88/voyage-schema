@@ -1,0 +1,9 @@
+version: v1
+managed:
+  enabled: true
+  go_package_prefix:
+    default: github.com/agoncalves88/voyage-schema/pkg/proto
+plugins:
+- plugin: go
+  out: pkg/proto
+  opt: paths=source_relative

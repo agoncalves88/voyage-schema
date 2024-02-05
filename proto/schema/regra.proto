@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package voyage.schema.regra;
+
+option go_package = "proto/schema/regra";
+
+message MessageSend {
+    int32 id = 1;
+    string value = 2;
+}
+
+
+message MessageResponse {
+    string response = 1;
+}
